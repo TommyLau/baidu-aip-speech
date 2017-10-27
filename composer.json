@@ -1,0 +1,38 @@
+{
+  "name": "tommy/baidu-aip-speech",
+  "type": "library",
+  "description": "Badiu AIP Speech",
+  "keywords": [
+    "Tommy",
+    "Baidu",
+    "AIP",
+    "AI",
+    "Speech"
+  ],
+  "homepage": "https://github.com/TommyLau/baidu-aip-speech",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tommy Lau",
+      "email": "tommy@gen-new.com",
+      "homepage": "https://tommy.net.cn/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tommy\\BaiduAipSpeech\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tommy\\BaiduAipSpeech\\Tests": "tests"
+    }
+  }
+}
