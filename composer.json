@@ -27,12 +27,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Tommy\\BaiduAipSpeech\\": "src"
+      "TommyLau\\BaiduAipSpeech\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tommy\\BaiduAipSpeech\\Tests": "tests"
+      "TommyLau\\BaiduAipSpeech\\Tests": "tests"
     }
   }
 }
