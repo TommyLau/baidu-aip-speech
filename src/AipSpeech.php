@@ -15,7 +15,7 @@
 * the License.
 */
 
-namespace TommyLauh\BaiduAipSpeech;
+namespace TommyLau\BaiduAipSpeech;
 
 use TommyLau\BaiduAipSpeech\Lib\AipBase;
 
