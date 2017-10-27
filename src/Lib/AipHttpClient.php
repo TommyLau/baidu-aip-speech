@@ -15,6 +15,8 @@
 * the License.
 */
 
+namespace TommyLau\BaiduAipSpeech\Lib;
+
 /**
  * Http Client
  */

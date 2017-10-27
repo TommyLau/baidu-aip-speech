@@ -15,7 +15,9 @@
 * the License.
 */
 
-require_once 'lib/AipBase.php';
+namespace TommyLauh\BaiduAipSpeech;
+
+use TommyLau\BaiduAipSpeech\Lib\AipBase;
 
 /**
  * 百度语音
