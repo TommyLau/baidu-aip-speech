@@ -6,7 +6,7 @@ class BaiduAipSpeech
 {
 
     // Automatic Speech Recognition
-    public static function asr($speech, $format = 'amr', $rate = '16000', $lan = 'zh')
+    public static function asr($speech, $format = 'amr', $rate = '8000', $lan = 'zh')
     {
         $aipSpeech = new AipSpeech(
             config('baidu.aip.app_id'),
@@ -19,12 +19,12 @@ class BaiduAipSpeech
             'lan' => $lan
         ];
 
-        $response = $aipSpeech->asr($speech, $format, $rate);
+        $response = $aipSpeech->asr($speech, $format, $rate, $options);
 
         if ($response['err_no'] == 0) {
             return $response['result'];
         } else {
-            return '语音识别错误';
+            return '';
         }
     }
 }
